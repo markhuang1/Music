@@ -1,0 +1,20 @@
+{
+  "name": "music163",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-htmlmin": "^2.4.0",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-contrib-uglify": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: d\" && exit 1",
+	"grunt":"grunt",
+	"start":"grunt"
+  },
+  "author": "",
+  "license": "ISC"
+}

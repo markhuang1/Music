@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>网易云音乐</title>
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="http://apps.bdimg.com/libs/fontawesome/4.4.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<div class="nav">
+			<div class="nav-top">
+				<div class="music-topbar topbar"></div>
+				<ul class="nav-top-ul">
+					<li>发现音乐
+						<div class="first-li-bottom topbar"></div>
+					</li>
+					<li>我的音乐</li>
+					<li>朋友</li>
+					<li>商城</li>
+					<li>音乐人</li>
+					<li>下载客户端</li>
+				</ul>
+				<div class="topbar-hot topbar"></div>
+				<div class="find topbar">
+					<input type="text" placeholder="视屏/音乐/电台/用户" id="search">
+				</div>
+				<div class="video topbar find"><span>视屏投稿</span></div>
+				<div class="login topbar">
+					<a href="http://music.163.com">登陆</a>
+					<i id="login-bottom" class="fa fa-caret-up" aria-hidden="true"></i>
+					<ul>
+						<li>
+							<i class="fa fa-mobile" aria-hidden="true"></i>
+							<span>手机登录</span>
+						</li>
+						<li>
+							<i class="fa fa-weixin" aria-hidden="true"></i>
+							<span>微信登录</span>
+						</li>
+						<li>
+							<i class="fa fa-qq" aria-hidden="true"></i>
+							<span>QQ登录</span>
+						</li>
+						<li>
+							<i class="fa fa-weibo" aria-hidden="true"></i>
+							<span>新浪微博登录</span>
+						</li>
+						<li>
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+							<span>网易邮箱账号登录</span>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;display: none;"></div>
+			</div>
+			<div class="nav-bottom">
+				<ul class="nav-bottom-ul">
+					<li>推荐</li>
+					<li>排行榜</li>
+					<li>歌单</li>
+					<li>主播电台</li>
+					<li>歌手</li>
+					<li>新碟上架</li>
+				</ul>
+				<div style="clear: both;display: none;"></div>
+			</div>
+		</div>
+		<div class="ads">
+			<div class="ad-left index"></div>
+			<div>
+				<div class="ads-img">
+					<img src="img/adtwo.png">
+					<div id="scor">
+						<div id="scors">
+							<img src="img/ad4.png">
+							<img src="img/adone.png">
+							<img src="img/adtwo.png">
+							<img src="img/ad3.png">
+							<img src="img/ad4.png">
+							<img src="img/adtwo.png">
+							<img src="img/ad3.png">
+							<img src="img/ad4.png">
+							<img src="img/adone.png">
+						</div>
+						
+					</div>
+					<div class="circle">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+					<div class="downloda">
+						<div class="downloda-top downlodas">
+						</div>
+						<div class="downloda-bottom downlodas"></div>
+					</div>
+				</div>
+			</div>
+			<div class="ad-right index">
+			</div>
+		</div>
+		<div class="content">
+			<div class="content-box">
+				<div class="content-left">
+					<div class="content-left-first">
+						<div class="clf-top">
+							<div class="index-img"></div>
+							<p>热门推荐</p>
+							<ul>
+								<li><a href="http://music.163.com">华语</a></li>
+								<li><a href="http://music.163.com">流行</a></li>
+								<li><a href="http://music.163.com">摇滚</a></li>
+								<li><a href="http://music.163.com">民谣</a></li>
+								<li><a href="http://music.163.com">电子</a></li>
+							</ul>
+							<div class="more index-img"><a href="http://music.163.com">更多</a></div>
+						</div>
+						<div class="hr"></div>
+						<div class="list">
+							<div class="list-top pic2">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>118万</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">华语|情话是一门失传已久的艺术</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="list-top">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>198万</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">如何用播放器让室友感受到你的爱</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="list-top pic3">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>21万</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">清澈惬心|胧月里的一抹温暖和煦</a>
+							</div>
+						</div>
+						<div class="list-last">
+							<div class="list-top pic4">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>19805</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">是什么让你的心变得冰冷而坚硬</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="list-top pic5">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>7117</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">幸福，就是有一个可以惦记的人</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="list-top pic6">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>19万</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">洞箫精选|一曲洞箫吹向月，夜深惊起海中鸟</a>
+							</div>
+						</div>
+						<div class="list">
+							<div class="list-top pic7">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>17万</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">【喵老师ASMR】敲击音/30分钟芦荟胶</a>
+							</div>
+						</div>
+						<div class="list-last">
+							<div class="list-top pic8">
+								<div class="lt-bottom">
+									<div class="ltb-left"></div>
+									<p>0</p>
+									<div class="ltb-right"></div>
+								</div>
+							</div>
+							<div class="list-bottom">
+								<a href="http://music.163.com">点击量|为【0】的歌单</a>
+							</div>
+						</div>
+					</div>
+					<div class="ad"></div>
+					<div class="content-left-second">
+						<div class="clf-top">
+							<div class="index-img"></div>
+							<p>新碟上架</p>
+							<div class="more index-img"><a href="http://music.163.com">更多</a></div>
+						</div>
+						<div class="hr"></div>
+						<div class="radio-box">
+							<div class="rb-left index-img"></div>
+							<div class="radio-list">
+								<div class="rl-top">
+									<div class="top-t rad1">
+										<div class="rl-top-img iclonall"></div>
+									</div>
+									<div class="top-b coverall"></div>
+								</div>
+								<div class="rl-bottom">
+									<a href="http://music.163.com" title="柒个我 影视剧原...">柒个我 影视剧原...</a>
+									<a href="http://music.163.com" title="群星">群星</a>
+								</div>
+							</div>
+							<div class="radio-list">
+								<div class="rl-top">
+									<div class="top-t rad2">
+										<div class="rl-top-img iclonall"></div>
+									</div>
+									<div class="top-b coverall"></div>
+								</div>
+								<div class="rl-bottom">
+									<a href="http://music.163.com" title="Mountain Top /S...">Mountain Top /S...</a>
+									<a href="http://music.163.com" title="RADWIMPS">RADWIMPS</a>
+								</div>
+							</div>
+						<div class="radio-list">
+								<div class="rl-top">
+									<div class="top-t rad3">
+										<div class="rl-top-img iclonall"></div>
+									</div>
+									<div class="top-b coverall"></div>
+								</div>
+								<div class="rl-bottom">
+									<a href="http://music.163.com" title="柒个我 影视剧原...">柒个我 影视剧原...</a>
+									<a href="http://music.163.com" title="V.A">V.A</a>
+								</div>
+						</div>
+						<div class="radio-list">
+								<div class="rl-top">
+									<div class="top-t rad4">
+										<div class="rl-top-img iclonall"></div>
+									</div>
+									<div class="top-b coverall"></div>
+								</div>
+								<div class="rl-bottom">
+									<a href="http://music.163.com" title="Stage舞台 第1季">Stage舞台 第1季</a>
+									<a href="http://music.163.com" title="群星">群星</a>
+								</div>
+						</div>
+						<div class="radio-list">
+								<div class="rl-top">
+									<div class="top-t rad5">
+										<div class="rl-top-img iclonall"></div>
+									</div>
+									<div class="top-b coverall"></div>
+									</div>
+									<div class="rl-bottom">
+										<a href="http://music.163.com" title="亲爱的她们 电视...">亲爱的她们 电视...</a>
+										<a href="http://music.163.com" title="群星">群星</a>
+									</div>
+								</div>
+						</div>
+						<div class="rb-right index-img"></div>
+					</div>
+					<div class="content-left-three">
+						<div class="clf-top">
+							<div class="index-img"></div>
+							<p>榜单</p>
+							<div class="more index-img"><a href="http://music.163.com">更多</a></div>
+						</div>
+						<div class="hr"></div>
+						<div class="rank-box">
+							<div class="rank-one">
+								<div class="ro-top">
+									<div class="ro-top-img rank1"></div>
+									<a href="http://music.163.com"><strong>云音乐飙升榜</strong></a>
+									<div class="ro-top-but1 index-img"></div>
+									<div class="ro-top-but2 index-img"></div>
+								</div>
+								<div class="ro-bottom">
+									<ul>
+										<li>1<span>00</span><a href="http://music.163.com" title="">说散就散</a></li>
+										<li>2<span>00</span><a href="http://music.163.com" title="">某某</a></li>
+										<li>3<span>00</span><a href="http://music.163.com" title="">说散就散</a></li>
+										<li>4<span>00</span><a href="http://music.163.com" title="">重生</a></li>
+										<li>5<span>00</span><a href="http://music.163.com" title="">那一天梦中醒来</a></li>
+										<li>6<span>00</span><a href="http://music.163.com" title="">9420</a></li>
+										<li>7<span>00</span><a href="http://music.163.com" title="">世上最可爱的歌儿</a></li>
+										<li>8<span>00</span><a href="http://music.163.com" title="">Best of 2017 Medley</a></li>
+										<li>9<span>00</span><a href="http://music.163.com" title="">逐梦演艺圈</a></li>
+										<li>10 <span>0</span><a href="http://music.163.com" title="">喜欢你，但害怕</a></li>
+									</ul>
+									<div>
+										<a href="http://music.163.com">查看全部></a>
+									</div>
+									<!--<table width="230px">
+										<tr>
+											<td>1</td>
+											<td><a href="http://music.163.com" title="">说散就散</a></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td><a href="http://music.163.com" title="">某某</a></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td><a href="http://music.163.com" title="">说散就散</a></td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td><a href="http://music.163.com" title="">重生</a></td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td><a href="http://music.163.com" title="">那一天梦中醒来</a></td>
+										</tr>
+										<tr>
+											<td>6</td>
+											<td><a href="http://music.163.com" title="">9420</a></td>
+										</tr>
+										<tr>
+											<td>7</td>
+											<td><a href="http://music.163.com" title="">世上最可爱的歌儿</a></td>
+										</tr>
+										<tr>
+											<td>8</td>
+											<td><a href="http://music.163.com" title="">Best of 2017 Medley</a></td>
+										</tr>
+										<tr>
+											<td>9</td>
+											<td><a href="http://music.163.com" title="">逐梦演艺圈</a></td>
+										</tr>
+										<tr>
+											<td>10</td>
+											<td><a href="http://music.163.com" title="">喜欢你，但害怕</a></td>
+										</tr>
+										
+									</table>-->
+								</div>
+							</div>
+							<div class="rank-one">
+								<div class="ro-top">
+									<div class="ro-top-img rank2"></div>
+									<a href="http://music.163.com"><strong>云音乐新歌榜</strong></a>
+									<div class="ro-top-but1 index-img"></div>
+									<div class="ro-top-but2 index-img"></div>
+								</div>
+								<div class="ro-bottom">
+									<ul>
+										<li>1<span>00</span><a href="http://music.163.com" title="">狐狸</a></li>
+										<li>2<span>00</span><a href="http://music.163.com" title="">说散就散</a></li>
+										<li>3<span>00</span><a href="http://music.163.com" title="">喜欢</a></li>
+										<li>4<span>00</span><a href="http://music.163.com" title="">I`m Chasing You</a></li>
+										<li>5<span>00</span><a href="http://music.163.com" title="">千禧</a></li>
+										<li>6<span>00</span><a href="http://music.163.com" title="">短发</a></li>
+										<li>7<span>00</span><a href="http://music.163.com" title="">枷锁</a></li>
+										<li>8<span>00</span><a href="http://music.163.com" title="">那一天从梦中醒来</a></li>
+										<li>9<span>00</span><a href="http://music.163.com" title="">无问</a></li>
+										<li>10 <span>0</span><a href="http://music.163.com" title="">言不由衷</a></li>
+									</ul>
+									<div>
+										<a href="http://music.163.com">查看全部></a>
+									</div>
+									<!--<table width="230px">
+										<tr>
+											<td>1</td>
+											<td><a href="http://music.163.com" title="">说散就散</a></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td><a href="http://music.163.com" title="">某某</a></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td><a href="http://music.163.com" title="">说散就散</a></td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td><a href="http://music.163.com" title="">重生</a></td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td><a href="http://music.163.com" title="">那一天梦中醒来</a></td>
+										</tr>
+										<tr>
+											<td>6</td>
+											<td><a href="http://music.163.com" title="">9420</a></td>
+										</tr>
+										<tr>
+											<td>7</td>
+											<td><a href="http://music.163.com" title="">世上最可爱的歌儿</a></td>
+										</tr>
+										<tr>
+											<td>8</td>
+											<td><a href="http://music.163.com" title="">Best of 2017 Medley</a></td>
+										</tr>
+										<tr>
+											<td>9</td>
+											<td><a href="http://music.163.com" title="">逐梦演艺圈</a></td>
+										</tr>
+										<tr>
+											<td>10</td>
+											<td><a href="http://music.163.com" title="">喜欢你，但害怕</a></td>
+										</tr>
+										
+									</table>-->
+								</div>
+							</div>
+							<div class="rank-one">
+								<div class="ro-top">
+									<div class="ro-top-img rank3"></div>
+									<a href="http://music.163.com"><strong>网易原创歌曲榜</strong></a>
+									<div class="ro-top-but1 index-img index-img3"></div>
+									<div class="ro-top-but2 index-img index-img2"></div>
+								</div>
+								<div class="ro-bottom">
+									<ul>
+										<li>1<span>00</span><a href="http://music.163.com" title="">做我的猫（圣诞特别版）</a></li>
+										<li>2<span>00</span><a href="http://music.163.com" title="">笃信</a></li>
+										<li>3<span>00</span><a href="http://music.163.com" title="">步履不停</a></li>
+										<li>4<span>00</span><a href="http://music.163.com" title="">Lately</a></li>
+										<li>5<span>00</span><a href="http://music.163.com" title="">Pink Trip</a></li>
+										<li>6<span>00</span><a href="http://music.163.com" title="">Stereo Heart</a></li>
+										<li>7<span>00</span><a href="http://music.163.com" title="">黑湖</a></li>
+										<li>8<span>00</span><a href="http://music.163.com" title="">Bravo ! Amigo!</a></li>
+										<li>9<span>00</span><a href="http://music.163.com" title="">双城</a></li>
+										<li>10 <span>0</span><a href="http://music.163.com" title="">Merry Marry</a></li>
+									</ul>
+									<div>
+										<a href="http://music.163.com">查看全部></a>
+									</div>
+									<!--<table width="230px">
+										<tr>
+											<td>1</td>
+											<td><a href="http://music.163.com" title="">说散就散</a></td>
+										</tr>
+										<tr>
+											<td>2</td>
+											<td><a href="http://music.163.com" title="">某某</a></td>
+										</tr>
+										<tr>
+											<td>3</td>
+											<td><a href="http://music.163.com" title="">说散就散</a></td>
+										</tr>
+										<tr>
+											<td>4</td>
+											<td><a href="http://music.163.com" title="">重生</a></td>
+										</tr>
+										<tr>
+											<td>5</td>
+											<td><a href="http://music.163.com" title="">那一天梦中醒来</a></td>
+										</tr>
+										<tr>
+											<td>6</td>
+											<td><a href="http://music.163.com" title="">9420</a></td>
+										</tr>
+										<tr>
+											<td>7</td>
+											<td><a href="http://music.163.com" title="">世上最可爱的歌儿</a></td>
+										</tr>
+										<tr>
+											<td>8</td>
+											<td><a href="http://music.163.com" title="">Best of 2017 Medley</a></td>
+										</tr>
+										<tr>
+											<td>9</td>
+											<td><a href="http://music.163.com" title="">逐梦演艺圈</a></td>
+										</tr>
+										<tr>
+											<td>10</td>
+											<td><a href="http://music.163.com" title="">喜欢你，但害怕</a></td>
+										</tr>
+										
+									</table>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-right">
+					<div class="cr-one index-img">
+						<p>登录网易云音乐，可以享受无限收藏的乐趣，并且无限同步到手机</p>
+						<div class="userlogin index-img">
+							<p>用户登录</p>
+						</div>
+					</div>
+					<div class="cr-two">
+						<div><b>入驻歌手</b></div>
+						<div><a href="http://music.163.com">查看全部></a></div>
+					</div>
+					<div class="hr2"></div>
+					<div class="singer">
+						<div class="singer1"></div>
+						<b>张惠妹aMEI</b>
+						<p>台湾歌手张惠妹</p>
+					</div>
+					<div class="singer">
+						<div class="singer2"></div>
+						<b>Fine乐团</b>
+						<p>独立音乐人</p>
+					</div>
+					<div class="singer">
+						<div class="singer3"></div>
+						<b>禹晓利</b>
+						<p>民谣歌手、中国现...</p>
+					</div>
+					<div class="singer">
+						<div class="singer4"></div>
+						<b>音乐人赵雷</b>
+						<p>民谣歌手</p>
+					</div>
+					<div class="singer">
+						<div class="singer5"></div>
+						<b>王三博</b>
+						<p id="p1">音乐人</p>
+					</div>
+					<div class="musicer">
+						<b>申请成为网易音乐人</b>
+					</div>
+					<div class="cr-two cr-three">
+						<div><b>热门主播</b></div>
+						<div><a href="http://music.163.com"></a></div>
+					</div>
+					<div class="hr2"></div>
+					<div class="anctor">
+						<div class="anctor1 anctor-img"></div>
+						<b>陈立</b>
+						<p>心理学家、美食家陈立教授</p>
+					</div>
+					<div class="anctor">
+						<div class="anctor2 anctor-img"></div>
+						<b>DJ艳秋</b>
+						<p>著名音乐节目主持人</p>
+					</div>
+					<div class="anctor">
+						<div class="anctor3 anctor-img"></div>
+						<b>国家大剧院</b>
+						<p>国家大剧院官方</p>
+					</div>
+					<div class="anctor">
+						<div class="anctor4 anctor-img"></div>
+						<b>谢谢收听</b>
+						<p>南京电台主持人王馨</p>
+					</div>
+					
+					
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="foot-left">
+				<div class="fl-top">
+					<ul>
+						<li><a href="http://music.163.com">关于网易</a><span>||</span></li>
+						<li><a href="http://music.163.com">客户服务</a><span>||</span></li>
+						<li><a href="http://music.163.com">服务条款</a><span>||</span></li>
+						<li><a href="http://music.163.com">网站导航</a><span>||</span></li>
+						<li><a href="http://music.163.com">意见反馈</a><span>||</span></li>
+					</ul>
+				</div>
+				<div class="fl-bottom">
+					<p>网易公司版权所有&copy;1997-2017<span>00</span>杭州乐读科技有限公司运营：<a href="http://music.163.com">浙网文[2015] 0415-135号</a></p>
+				</div>
+			</div>
+			<div class="foot-right">
+				<div class="foot-img foot-image"></div>
+				<div class="foot-img foot-image2"></div>
+				<div class="foot-img foot-image3"></div>
+				<div class="foot-img foot-image4"></div>
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/index.js"></script>
+</html>
